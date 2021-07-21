@@ -33,6 +33,7 @@
 #import <JKCategories/NSDictionary+JKSafeAccess.h>
 #import <JKCategories/NSDictionary+JKURL.h>
 #import <JKCategories/NSDictionary+JKXML.h>
+#import <JKCategories/NSDictionary+RemoveNullValue.h>
 #import <JKCategories/NSException+JKTrace.h>
 #import <JKCategories/NSFileHandle+JKReadLine.h>
 #import <JKCategories/NSFileManager+JKPaths.h>
@@ -70,6 +71,7 @@
 #import <JKCategories/NSString+JKPinyin.h>
 #import <JKCategories/NSString+JKRemoveEmoji.h>
 #import <JKCategories/NSString+JKScore.h>
+#import <JKCategories/NSString+JKSafe.h>
 #import <JKCategories/NSString+JKSize.h>
 #import <JKCategories/NSString+JKTrims.h>
 #import <JKCategories/NSString+JKURLEncode.h>
@@ -77,11 +79,11 @@
 #import <JKCategories/NSString+JKXMLDictionary.h>
 #import <JKCategories/NSString+JKStringPages.h>
 #import <JKCategories/NSString+JKHTML.h>
+#import <JKCategories/NSString+HexConversion.h>
 #import <JKCategories/NSTimer+JKAddition.h>
 #import <JKCategories/NSTimer+JKBlocks.h>
 #import <JKCategories/NSURL+JKParam.h>
 #import <JKCategories/NSURL+JKQueryDictionary.h>
-#import <JKCategories/NSURLConnection+JKSelfSigned.h>
 #import <JKCategories/NSURLRequest+JKParamsFromDictionary.h>
 #import <JKCategories/NSURLSession+JKSynchronousTask.h>
 #import <JKCategories/NSUserDefaults+JKiCloudSync.h>
@@ -114,6 +116,7 @@
 #import "NSDictionary+JKSafeAccess.h"
 #import "NSDictionary+JKURL.h"
 #import "NSDictionary+JKXML.h"
+#import "NSDictionary+RemoveNullValue.h"
 #import "NSException+JKTrace.h"
 #import "NSFileHandle+JKReadLine.h"
 #import "NSFileManager+JKPaths.h"
@@ -151,6 +154,7 @@
 #import "NSString+JKPinyin.h"
 #import "NSString+JKRemoveEmoji.h"
 #import "NSString+JKScore.h"
+#import "NSString+JKSafe.h"
 #import "NSString+JKSize.h"
 #import "NSString+JKTrims.h"
 #import "NSString+JKURLEncode.h"
@@ -158,11 +162,11 @@
 #import "NSString+JKXMLDictionary.h"
 #import "NSString+JKStringPages.h"
 #import "NSString+JKHTML.h"
+#import "NSString+HexConversion.h"
 #import "NSTimer+JKAddition.h"
 #import "NSTimer+JKBlocks.h"
 #import "NSURL+JKParam.h"
 #import "NSURL+JKQueryDictionary.h"
-#import "NSURLConnection+JKSelfSigned.h"
 #import "NSURLRequest+JKParamsFromDictionary.h"
 #import "NSURLSession+JKSynchronousTask.h"
 #import "NSUserDefaults+JKiCloudSync.h"

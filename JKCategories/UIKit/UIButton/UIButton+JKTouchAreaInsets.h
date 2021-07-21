@@ -21,14 +21,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 //
-//https://github.com/devxoul/UIButton-TouchAreaInsets
+// https://github.com/devxoul/UIButton-TouchAreaInsets
 
 #import <UIKit/UIKit.h>
 
 @interface UIButton (JKTouchAreaInsets)
-/**
- *  @brief  设置按钮额外热区
- */
+
+/// 设置按钮额外热区
 @property (nonatomic, assign) UIEdgeInsets jk_touchAreaInsets;
 
 @end

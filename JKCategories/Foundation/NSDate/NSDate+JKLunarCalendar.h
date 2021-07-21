@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+
 ///农历大写日期
 @interface NSDate (JKLunarCalendar)
+
 + (NSCalendar *)jk_chineseCalendar;
 //例如 五月初一
 + (NSString*)jk_currentMDDateString;
@@ -20,4 +22,5 @@
 + (NSString *)jk_currentWeekWithDateString:(NSString*)datestring;
 //例如 五月一
 + (NSString*)jk_currentCapitalDateString;
+
 @end

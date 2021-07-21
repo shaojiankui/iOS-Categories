@@ -11,9 +11,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImageView (JKReflect)
-/**
- *  @brief  倒影
- */
+
+/// 倒影
 - (void)jk_reflect;
 
 @end
